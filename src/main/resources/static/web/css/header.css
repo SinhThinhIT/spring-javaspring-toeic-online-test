@@ -1,0 +1,286 @@
+                       ::selection {
+                          background: #444;
+                          color: #fff;
+                          text-shadow: none;
+                      }
+                      /* Header-top area */
+                      
+                      .header-area {
+                          left: 0;
+                          right: 0;
+                          width: 100%;
+                          top: 0;
+                          z-index: 9;
+                      }
+                      
+                      .header-area .header-top_area {
+                          padding: 11px 150px;
+                          background: #232637;
+                      }
+                      
+                      @media (max-width: 1500px) and (min-width: 1200px) {
+                          .header-area .header-top_area {
+                              padding: 11px 50px;
+                          }
+                      }
+                      
+                      @media (max-width: 767px) {
+                          .header-area .main-header-area .logo img {
+                              width: 80%;
+                          }
+                      }
+                      
+                      p {
+                          font-size: 16px;
+                          font-weight: 400;
+                          line-height: 28px;
+                          color: #7d84ab;
+                          margin-bottom: 13px;
+                      }
+                      
+                      .header-area .header-top_area .header_top_wrap p {
+                          margin-bottom: 0;
+                          font-size: 14px;
+                          color: #ffffff;
+                      }
+                      
+                      .header-area .header-top_area .header_top_wrap p span {
+                          color: #fff;
+                      }
+                      
+                      .header-area .header-top_area .header_top_wrap .text_wrap p a {
+                          color: #fff;
+                          font-size: 14px;
+                      }
+                      
+                      .header-area .header-top_area .header_top_wrap .text_wrap p a:hover {
+                          color: yellow;
+                          font-size: 17px;
+                      }
+                      
+                      .header-area .header-top_area .header_top_wrap .text_wrap a:last-child {
+                          margin-left: 30px;
+                          padding-left: 30px;
+                          position: relative;
+                      }
+                      
+                      .header-area .header-top_area .header_top_wrap .text_wrap a:last-child::before {
+                          position: absolute;
+                          left: 0;
+                          top: 50%;
+                          transform: translateY(-50%);
+                          width: 1px;
+                          height: 13px;
+                          background: #fff;
+                          content: '';
+                      }
+                      
+                      .ti-user:before {
+                          content: "\e602";
+                      }
+                      /* Header main-header-area */
+                      
+                      @media (max-width: 1500px) and (min-width: 1200px) {
+                          .header-area .main-header-area {
+                              padding: 0 50px;
+                          }
+                      }
+                      
+                      .header-area .main-header-area {
+                          background: #fff;
+                          padding: 0 150px;
+                          -webkit-box-shadow: 0px 2px 2.94px 0.06px rgba(12, 29, 46, 0.05);
+                          -moz-box-shadow: 0px 2px 2.94px 0.06px rgba(12, 29, 46, 0.05);
+                          box-shadow: 0px 2px 2.94px 0.06px rgba(12, 29, 46, 0.05);
+                      }
+                      /* Main Menu */
+                      
+                      .header-area .main-header-area .main-menu {
+                          text-align: center;
+                      }
+                      
+                      .header-area .main-header-area .main-menu ul li {
+                          display: inline-block;
+                          position: relative;
+                          margin: 0 10px;
+                      }
+                      
+                      .header-area .main-header-area .main-menu ul li:first-child a {
+                          padding-left: 0;
+                      }
+                      
+                      .header-area .main-header-area .main-menu ul li a {
+                          color: #32364a;
+                          font-size: 14px;
+                          text-transform: capitalize;
+                          font-weight: 600;
+                          display: inline-block;
+                          padding: 39px 0px 39px 0px;
+                          font-family: "Poppins", sans-serif;
+                          position: relative;
+                          text-transform: capitalize;
+                      }
+                      
+                      @media (max-width: 1500px) and (min-width: 1200px) {
+                          .header-area .main-header-area .main-menu ul li a {
+                              font-size: 15px;
+                          }
+                      }
+                      
+                      .header-area .main-header-area .main-menu ul li a::before {
+                          position: absolute;
+                          content: "";
+                          background: #fff;
+                          width: 100%;
+                          height: 2px;
+                          bottom: 0;
+                          left: 0;
+                          opacity: 0;
+                          transform: scaleX(0);
+                          -webkit-transition: 0.3s;
+                          -moz-transition: 0.3s;
+                          -o-transition: 0.3s;
+                          transition: 0.3s;
+                      }
+                      
+                      .header-area .main-header-area .main-menu ul li .submenu {
+                          position: absolute;
+                          left: 0;
+                          top: 120%;
+                          background: #fff;
+                          width: 200px;
+                          z-index: 2;
+                          box-shadow: 0 0 10px rgba(0, 0, 0, 0.02);
+                          opacity: 0;
+                          visibility: hidden;
+                          text-align: left;
+                          -webkit-transition: 0.6s;
+                          -moz-transition: 0.6s;
+                          -o-transition: 0.6s;
+                          transition: 0.6s;
+                      }
+                      
+                      .header-area .main-header-area .main-menu ul li .submenu li {
+                          display: block;
+                      }
+                      
+                      .header-area .main-header-area .main-menu ul li .submenu li a {
+                          padding: 10px 15px;
+                          position: inherit;
+                          -webkit-transition: 0.3s;
+                          -moz-transition: 0.3s;
+                          -o-transition: 0.3s;
+                          transition: 0.3s;
+                          display: block;
+                          color: #000;
+                      }
+                      
+                      .header-area .main-header-area .main-menu ul li .submenu li:hover a {
+                          color: mediumorchid;
+                      }
+                      
+                      .header-area .main-header-area .main-menu ul li:hover>.submenu {
+                          opacity: 1;
+                          visibility: visible;
+                          top: 100%;
+                      }
+                      
+                      .header-area .main-header-area .main-menu ul li a:hover {
+                          color: aqua;
+                          /* background-color: aqua; */
+                      }
+                      
+                      .header-area .main-header-area .Appointment .socail_links ul li a:hover {
+                          color: mediumorchid;
+                      }
+                      
+                      .header-area .main-header-area .Appointment .book_btn a:hover {
+                          background: #fff;
+                          color: #234262;
+                          border: 1px solid #234262;
+                      }
+                      
+                      @media (max-width: 1500px) and (min-width: 1200px) {
+                          .header-area .main-header-area .main-menu ul li:last-child a {
+                              margin-right: 30px;
+                          }
+                      }
+                      
+                      .header-area .main-header-area .Appointment {
+                          display: -webkit-box;
+                          display: -moz-box;
+                          display: -ms-flexbox;
+                          display: -webkit-flex;
+                          display: flex;
+                          -webkit-align-items: center;
+                          -moz-align-items: center;
+                          -ms-align-items: center;
+                          align-items: center;
+                          -webkit-justify-content: flex-end;
+                          -moz-justify-content: flex-end;
+                          -ms-justify-content: flex-end;
+                          justify-content: flex-end;
+                          -ms-flex-pack: flex-end;
+                      }
+                      
+                      @media (max-width: 1500px) and (min-width: 1200px) {
+                          .header-area .main-header-area .Appointment .book_btn {
+                              margin-left: 0;
+                          }
+                      }
+                      
+                      .header-area .main-header-area .Appointment .book_btn {
+                          margin-left: 30px;
+                      }
+                      
+                      .header-area .main-header-area .Appointment .book_btn a {
+                          background: #234262;
+                          padding: 13px 60px;
+                          font-size: 16px;
+                          font-weight: 400;
+                          border: 1px solid transparent;
+                          color: #fff;
+                          -webkit-border-radius: 4px;
+                          -moz-border-radius: 4px;
+                          border-radius: 4px;
+                          text-transform: uppercase;
+                      }
+                      
+                      .header-area .main-header-area.sticky {
+                          box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
+                          position: fixed;
+                          width: 100%;
+                          top: -70px;
+                          left: 0;
+                          right: 0;
+                          z-index: 99;
+                          transform: translateY(70px);
+                          transition: transform 500ms ease, background 500ms ease;
+                          -webkit-transition: transform 500ms ease, background 500ms ease;
+                          box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
+                          background: rgba(255, 255, 255, 0.96);
+                      }
+                      
+                      ul {
+                          margin: 0px;
+                          padding: 0px;
+                      }
+                      
+                      li {
+                          list-style: none;
+                      }
+                      
+                      a,
+                      button {
+                          color: #1F1F1F;
+                          outline: medium none;
+                      }
+                      
+                      a,
+                      .button,
+                      button {
+                          -webkit-transition: 0.3s;
+                          -moz-transition: 0.3s;
+                          -o-transition: 0.3s;
+                          transition: 0.3s;
+                      }

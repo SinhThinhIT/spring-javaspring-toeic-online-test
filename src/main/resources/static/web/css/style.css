@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("https://fonts.google.com/specimen/Roboto?selection.family=Roboto");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* background-image: url("../img/toeic_background.jpg"); */
+    background-size: cover;
+    background-position: center;
+}

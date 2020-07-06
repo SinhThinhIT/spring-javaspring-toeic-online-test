@@ -1,0 +1,23 @@
+body {
+    background: aqua !important;
+}
+
+.forget-page {
+    position: relative;
+}
+
+.forget-page h1 {
+    color: yellow;
+}
+
+.container {
+    position: absolute !important;
+    right: 0;
+    left: 0;
+    top: 20px;
+}
+
+.col-md-12 a.back {
+    margin-left: 4px;
+    text-decoration: none;
+}

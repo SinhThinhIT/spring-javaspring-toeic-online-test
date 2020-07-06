@@ -1,0 +1,68 @@
+@font-face {
+    font-family: "Lemonada";
+    src: url("https://fonts.google.com/?selection.family=Lemonada");
+}
+
+.login-toeic {
+    position: relative;
+}
+
+.login-toeic .container {
+    position: absolute !important;
+    top: 20px;
+    right: 0;
+    left: 0;
+}
+
+.login-toeic .info-login {
+    font-size: 400;
+}
+
+.login_fast {
+    margin: 20px 0;
+    border: 1px solid red;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.login_fast .text {
+    margin-bottom: 14px;
+    border-bottom: 1px solid rgba(75, 227, 238, 0.945);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: violet;
+}
+
+.login_fast .fa-google-plus,
+.login_fast .fa-facebook-official {
+    text-align: center;
+    margin-right: 5px;
+}
+
+.login_fast .gmail {
+    color: red;
+}
+
+.login_fast .gmail:hover {
+    color: white;
+    background-color: red;
+}
+
+.login_fast .facebook {
+    color: blue;
+}
+
+.login_fast .facebook:hover {
+    color: white;
+    background-color: blue;
+}
+
+
+/* Media */
+
+@media screen and (max-width: 919px) {
+    .login-toeic img {
+        display: none;
+    }
+}

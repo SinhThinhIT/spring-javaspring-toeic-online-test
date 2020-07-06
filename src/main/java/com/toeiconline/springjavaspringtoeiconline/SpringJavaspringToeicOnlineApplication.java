@@ -1,0 +1,13 @@
+package com.toeiconline.springjavaspringtoeiconline;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SpringJavaspringToeicOnlineApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringJavaspringToeicOnlineApplication.class, args);
+	}
+
+}
